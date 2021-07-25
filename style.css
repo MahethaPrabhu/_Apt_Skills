@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+header, footer{
+    background-color: gray ;
+    height: 30px;
+    color: white;
+    padding: 50px;
+}
+.top{
+    background-image: url("./assests/Apt\ Skills\ \(8\).png");
+    background-size: 100% 100%;
+}
+.container{
+    min-height: 650px;
+    padding-top: 5%;
+}
+h1{
+    margin-top: 150px;
+    font-size: 3em;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    width: 130px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+}
+.store{
+    padding: 20px;
+}
+
+
+
+h1, table{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.project{
+    margin-left: 40%;
+}
+
+#phone{
+    margin-bottom: 10%;
+    margin-right: 45%;
+    height: 555px;
+    width: 550px;
+}
+
+#queensbrain{
+    width: 700px;
+    font-size: large;
+    color: black;
+    text-align: left;
+    position:absolute;
+    bottom: -550px;
+    left: 850px;
+}
+
+.blue {
+    position: absolute;
+    background: #FFA86E;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 100px;
+    bottom: -955px;
+}
+
+.lightblue {
+    position: absolute;
+    background: #55ACEE;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 200px;
+    bottom: -955px;
+}
+
+.red {
+    position: absolute;
+    background: #1A4789;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 300px;
+    bottom: -955px;
+}
+
+#privacy{
+    position: absolute;
+    left: 100px;
+}
+
+#terms{
+    position: absolute;
+    left: 240px;
+}
